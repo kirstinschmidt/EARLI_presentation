@@ -396,7 +396,7 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
   - randomized was also the order whether the claim was made by a teacher or a scientist and 
   - whether the claim was consistent or inconsistent to the participants prior topic-specific beliefs
 - the procedure was always the same
-  - first we presented the teachers with the topic, i.g.e, integration of figures and text
+  - first we presented the teachers with the topic, i.g.e, integration of pictures and text
   - then we asked the participants for their opinion on this topic
   - afterwards we showed them the respective claim - in this box -
   - this claim was either consistent or inconsistent to the answer given before
@@ -417,6 +417,8 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
 - what is quite obvious when we look at bouth source columms is that the average trust ratings for scientific evidence are higher than for anecdotal evidence
   - acroos all topics - which is quite surprising
 - we can also see that teachers trust claims more if they fit their beliefs, i.e., when they are consistent with their beliefs
+
+ADD EFFECT SIZES IN FIGURE
 
 ::: 
 
