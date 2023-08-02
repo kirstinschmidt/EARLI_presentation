@@ -1,0 +1,518 @@
+---
+format: 
+  revealjs:
+    controls: true
+    slide-number: c
+    logo: images/PH_logo.svg
+    theme: [dark, css/custom.scss]
+    preview-links: auto
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 3
+      buttons: true
+      chalk-effect: 0
+    fullscreen: true
+    pdfexport: true
+    multiplex: true
+bibliography: references.bib
+csl: apa.csl
+editor_options: 
+  chunk_output_type: console
+---
+
+## <font color="#8cd000">Teachers trust scientific evidence...</font>{.cent2}
+
+
+```{r hidden chunk which creates template stuff}
+#| echo: false
+
+########################
+library(fontawesome)
+library(tidyverse)
+library(readxl)
+library(ggalt)
+library(hrbrthemes)
+library(reactable)
+set.seed(848265)
+
+# Change css to lecker PH green
+#if(!dir.exists("img"))
+#dir.create("img")
+if(!dir.exists("css"))
+dir.create("css")
+fileConn<-file("css/custom.scss")
+fileStyle<-file("css/custom.scss")
+writeLines(c("/*-- scss:defaults --*/",
+             "$link-color: #8cd000 !default;",
+             ".imp {color: #8cd000;}",
+             ".imp2 {color: #50B32E;}",
+             ".cent2 h2 {text-align: center;}",
+             ".cent3 h3 {text-align: center;}",
+             ".cent1 h1 {text-align: center;}",
+             ".cent_text {text-align: center;}"), fileConn)
+close(fileConn)
+close(fileStyle)
+```
+
+```{css}
+
+.em09 {
+font-size: .9em;}
+
+.em08 {font-size: .8em;}
+
+.em07 {font-size: .7em;}
+
+```
+
+
+<center>
+<font color="#8cd000">...especially if it confirms their beliefs</font>
+</center>
+
+
+<br>
+
+::: {style="font-size: 0.8em"}
+<center> Kirstin Schmidt</u><sup>1</sup>, Tom Rosman<sup>2</sup>, Colin Cramer<sup>3</sup>, <br> Kris-Stephen Besa<sup>4</sup> and Samuel Merk<sup>1</sup> </center>
+
+<br>
+<center> 
+<sup>1</sup> Karlsruhe University of Education <br>
+<sup>2</sup> ZPID - Leibniz-Institut for Psychology Trier <br>
+<sup>3</sup> Eberhard Karls University Tübingen <br>
+<sup>4</sup> University Münster <br>
+<br>
+<br>
+
+presentation available at XXX <br>
+paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="true"} <br>
+[Paper presentation EARLI 2023| XX.08.2023]{.imp2}
+</center>
+
+:::
+
+::: notes
+
+- welcome
+- experimental study in which colleagues and I analyzed how teachers trust in scientific evidence
+
+:::
+
+## <font color="#8cd000">Structure {{< fa list-ul >}}</font>
+
+:::{style="font-size: 0.7em"}
+* Evidence-informed school practice {{< fa school >}}
+* Trust in scientific evidence {{< fa hands-helping >}}
+  * Trust in different information sources {{< fa list >}}
+  * Trust and confirmation bias {{< fa eye-slash >}}
+* Experimental study - Teachers' beliefs and their influence on trust {{< fa search >}}
+  * Hypotheses {{< fa exclamation >}}
+  * Sample {{< fa users >}}
+  * Design and materials {{< fa align-left >}}
+  * Results {{< fa chart-bar >}}
+* Discussion {{< fa comments >}}
+* References {{< fa book-open >}}
+:::
+
+::: notes
+
+- quick overview of the structure to begin with
+- theoretical framework of the study
+  - I will shortly explain what is meant by evidence-informed school practice and why it is important to look at teachers' trust in scientific evidnece
+- afterwards: study design, results etc.
+- discussion
+
+:::
+
+# <font color="#8cd000">Evidence-informed school practice {{< fa school >}}</font>{.cent1}
+
+::: notes
+
+- let's start with the concept evidence-informed school practice
+
+:::
+
+## <font color="#8cd000">Evidence-informed school practice {{< fa school >}}</font>
+
+:::{style="font-size: 0.8em"}
+* Teachers can draw on different information sources when making professional decisions; information sources range from anecdotal evidence to scientific evidence (e.g., Buehl & Fives, 2009)
+
+* [Evidence-informed school practice means to consider, among others, scientific evidence in professional actions to e.g., solve problems that repeatedly emerge]{.imp2}
+<br>
+  &rarr; Increasing school quality, teaching quality and students' achievement <br> (e.g., Brown et al., 2017)
+<br>
+
+* However, teachers often do not consider scientific evidence in their school practice (e.g., Brown et al., 2017; Hinzke et al., 2020)
+
+:::
+
+::: notes
+
+- different definitions, but what most of these definitions have in common is that teachers are encouraged to consider scientific findings in their professional actions
+- despite this widespread demand, teachers often do not act in an evidence-informed manner
+:::
+
+
+## <font color="#8cd000">Evidence-informed school practice {{< fa school >}}</font>
+
+:::{style="font-size: 0.8em"}
+Numerous barriers exist that make it difficult for teachers to act in an evidence-informed manner:
+
+::: {.incremental}
+  * Resources (e.g., limited time)
+  * Belief systems (e.g., negative beliefs about the practical applicability of scientific knowledge)
+  * Cognitive abilities / competencies (e.g., lack of statistical knowledge) <br>
+  (e.g., Brown et al., 2022; van Schaik et al., 2018)
+:::
+
+:::
+
+::: notes
+- question arises: what are the barriers that prevent teachers from doing so?
+- previous research has identified numerous barriers such as
+  - resources like limited time
+  - belief systems
+  - cognitive abilities/competencies
+:::
+  
+
+## <font color="#8cd000">Evidence-informed school practice {{< fa school >}}</font>
+
+:::{style="font-size: 0.8em"}
+Numerous barriers exist that make it difficult for teachers to act in an evidence-informed manner:
+
+* Resources (e.g., limited time)
+* Belief systems (e.g., negative beliefs about the practical applicability of scientific knowledge)
+* [__Cognitive abilities / competencies (e.g., lack of statistical knowledge)__]{.imp2}<br>
+  (e.g., Brown et al., 2022; van Schaik et al., 2018)
+:::
+
+::: notes
+
+- If we now specifically look at the abbilities/competencies, teachers often struggle with interpreting and understanding scientific information as well as evaluating its veracity i.e., to evaluate the appropriateness of the study design, for example.  
+  - firsthand evaluation 
+
+- another way is to evaluate whether the information appears trustworthy
+
+:::
+  
+
+# <font color="#8cd000">Trust in scientific evidence {{< fa hands-helping >}}</font> {.cent1}
+
+::: notes
+
+I will elaborate on this in more detail
+:::
+
+## <font color="#8cd000">Trust in scientific evidence {{< fa hands-helping >}}</font>
+
+:::{style="font-size: 0.8em"}
+* [Teachers often evaluate scientific evidence secondhand: instead of evaluating its veracity, they evaluate its credibility and trustworthiness]{.imp2} (e.g., Merk & Rosman, 2019)
+<br> &rarr; Trust = key predictor/indicator to what extent scientific evidence is positively evaluated and considered (Bromme et al.,2022; Hendriks et al., 2016)
+<br>
+
+* Subjective criteria such as teachers' beliefs can influence the evaluation of trust (e.g., Dietz & Den Hartong, 2006; Blöbaum, 2016)
+
+:::
+
+::: notes
+
+- if we evaluate the extent to which an information, e.g., scientific evidence, appears trustworthy, we conduct what is known as secondhand evaluation
+  - hence, teachers do not ask to what extent the statement is correct - that would be firsthand evaluation - but to what extent they can trust the statement 
+
+- since teachers often choose this secondhand evaluation, trust can be a central predictor/indicator for the extent to which teachers actually consider scientific evidence in their school practice
+
+- furthermore, the evaluation of trust can be influenced by teachers' belief systems
+  - now I am going to present two of such possible influencing factors in more detail
+
+::: 
+
+## <font color="#8cd000">Trust in different information sources {{< fa list >}}</font>
+
+:::{style="font-size: 0.8em"}
+[(Future) teachers primarily consider anecdotal evidence in their practice (e.g., Buehl & Fives, 2009) and have more trust in other teachers than in scientists:]{.imp2}
+
+* Especially when looking for practical advice (Hendriks et al., 2021)
+* Educational scientists = "smart but evil" (Merk & Rosman, 2019)
+* Lack of integrity and benevolence as reasons for distrust in educational scientists (Rosman & Merk, 2021)
+
+:::
+
+::: notes
+
+- findings from previous studies exist on how teachers trust different information sources
+- we know that teachers primarily consider anecdotal evidence - own teaching experience, advice from colleagues - in their practice and also trust information from teachers more than information from scientists. 
+
+:::
+
+## <font color="#8cd000">Trust in different information sources {{< fa list >}}</font>
+
+:::{style="font-size: 0.8em"}
+[(Future) teachers primarily consider anecdotal evidence in their practice (e.g., Buehl & Fives, 2009) and have more trust in other teachers than in scientists:]{.imp2}
+
+* Especially when looking for practical advice (Hendriks et al., 2021)
+* Educational scientists = "smart but evil" (Merk & Rosman, 2019)
+* Lack of integrity and benevolence as reasons for distrust in educational scientists (Rosman & Merk, 2021)
+
+
+[{{< fa exclamation-triangle >}} __Anecdotal evidence that is not supported by science (e.g., the learning style theory) is consequently disseminated in everyday school life and leads to ineffective or dysfunctional practice__]{.imp}
+
+
+:::
+
+::: notes
+
+- Problematic in the sense that anecdotal evidence that is not supported by science - think, for example, of common misconceptions such as learning styles - is consequently disseminated in everyday school life
+- This (can) lead(s) to ineffective or dysfunctional practice
+
+:::
+
+## <font color="#8cd000">Trust and confirmation bias {{< fa eye-slash >}}</font>
+
+:::{style="font-size: 0.8em"}
+[Confirmation bias = own prior beliefs influence searching and interpreting information]{.imp2}
+
+* Information that is consistent with prior beliefs is preferred or perceived as more confirmatory
+* Information that is inconsistent with prior beliefs is more quickly devalued and thus avoided or questioned and scanned to find errors in it <br> (e.g., Hart et al., 2009; Nickerson, 1998; Stroud, 2017)
+<br>
+<br>
+
+:::
+
+::: notes
+
+- confirmation bias means that one's own prior beliefs influence the search for and interpretation of information
+  - in the sense that 
+    - information that is in line with one's own prior beliefs is preferred
+    - whereas information that contradicts one's own beliefs is devalued
+  
+:::
+
+## <font color="#8cd000">Trust and confirmation bias {{< fa eye-slash >}}</font>
+
+:::{style="font-size: 0.8em"}
+[In the educational context, confirmation bias is hardly systematically researched:]{.imp2}
+
+* Teachers often do not look for data that challenge/question their own opinions (Van Lommel et al., 2017)
+* When data is inconsistent with teachers' beliefs, teachers look for explanations as to why the data might be wrong (Andersen, 2020)
+* Student teachers are more likely to display confirmation bias than hindsight bias when evaluating scientific studies (Masnick & Zimmermann, 2009)
+
+:::
+
+::: notes
+
+- confirmation bias is often discussed as a barrier of evidence-informed practice, but it has not yet been systematically analyzed
+- there are initial insights on the existence of Confirmation Bias in databased decision making based on qualitative analyses
+- but to the best of our knowledge only one quantitative study exists that focus on interpreting scientific evidence
+- the study shows that teachers rather show a confirmation bias than a hindsight bias when evaluating scientific studies 
+  - firsthand evaluation 
+- thus, we wanted to investigate whether secondhand evaluation, or more precisely the trust in scientific statements, is also influenced by confirmation bias
+::: 
+
+## <font color="#8cd000">Trust and confirmation bias {{< fa eye-slash >}}</font>
+
+:::{style="font-size: 0.8em"}
+[In the educational context, confirmation bias is hardly systematically researched:]{.imp2}
+
+* Teachers often do not look for data that challenge/question their own opinions (Van Lommel et al., 2017)
+* When data is inconsistent with teachers' beliefs, teachers look for explanations as to why the data might be wrong (Andersen, 2020)
+* Student teachers are more likely to display confirmation bias than hindsight bias when evaluating scientific studies (Masnick & Zimmermann, 2009)
+
+[{{< fa exclamation-triangle >}} __A one-sided reference or lack of reference to scientific evidence can make it difficult or even impossible to adequately realize evidence-informed practice__]{.imp}
+
+:::
+
+
+::: notes
+
+- if this is the case, this could be a further barrier for evidence-informed practice
+- if teachers demonstrate a selective trust in scientific evidence, then this can lead to a one-sided or lack of reference to evidence. This would make it difficult or even impossible to adequately realize evidence-informed practice
+
+IF TIME IS ENOUGH ADD AN EXAMPLE
+::: 
+
+# <font color="#8cd000">Experimental study - teachers' beliefs and their influence on trust {{< fa search >}} </font> {.cent1}
+
+::: notes
+
+- in our experimental study we have focused on both explained aspects
+  - the source of evidence as well as teachers' prior beliefs about an educational topic
+
+:::
+
+## <font color="#8cd000">Hypotheses {{< fa exclamation >}} </font>
+
+<br>
+
+H<sub>1</sub>: When teachers are confronted with knowledge claims regarding specific topics from educational science, they show more trust in claims if these are allegedly from another teacher (anecdotal evidence) than from a scientific study (scientific evidence).
+
+<br>
+
+H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge claims of educational science, they show more trust in these claims if these are belief-consistent.
+
+
+::: notes
+
+- examined:
+
+1) whether teachers show more trust in certain claims from educational science when they come from a teacher (that is anecdotal evidence) than from a scientist/scientific study (that is scientific evidence)
+2) whether teachers trust certain claims from educational science more when they fit their prior beliefs - rather than refute them
+
+:::
+
+## <font color="#8cd000">Sample {{< fa users >}} </font>
+
+<center> [*N* = 414 teachers in Germany]{.imp} </center>
+
+
+* 73.1 % female teachers
+<br>
+<br>
+* 80.8 % of the teachers are between 30 and 59 years old
+<br>
+<br>
+* Teachers teach at different types of schools (z.B. 29.3 % teach at a primary school; 25.8 % teach at a upper secondary school)
+<br>
+<br>
+[&rarr; Representative sample]{.imp} <br>(cf. Destatis, 2019)
+
+
+::: notes
+
+- we collected data from a representative sample of 414 teachers in Germany
+- here you can see some information about the demographics of our sample
+
+:::
+
+---
+
+![(cf. Schmidt et al., 2022)](images/epitomes.png){width="250"}
+
+::: notes
+
+- to test our hypotheses we presented the teachers with in total two different claims from educational science
+  - these two claims were randomly chosen out of four claims 
+  - randomized was also the order whether the claim was made by a teacher or a scientist and 
+  - whether the claim was consistent or inconsistent to the participants prior topic-specific beliefs
+- the procedure was always the same
+  - first we presented the teachers with the topic, i.g.e, integration of figures and text
+  - then we asked the participants for their opinion on this topic
+  - afterwards we showed them the respective claim - in this box -
+  - this claim was either consistent or inconsistent to the answer given before
+  - finally, the participants were ask how much they trust the claim above 
+  
+- let's have a look at the results
+
+:::
+
+---
+
+![Schmidt et al. (2022; p. 8)](images/trust_by_belief-consistency_source_topic.jpg)
+
+
+::: notes
+
+- in this figure you can see the trust ratings differentiated per consistency on the left y-axis, per topic on the right y-axis and source left column scientific evidence, right column anecdotal evidence
+- what is quite obvious when we look at bouth source columms is that the average trust ratings for scientific evidence are higher than for anecdotal evidence
+  - acroos all topics - which is quite surprising
+- we can also see that teachers trust claims more if they fit their beliefs, i.e., when they are consistent with their beliefs
+
+::: 
+
+---
+
+![](images/table_results.png){width="250"}
+
+::: notes 
+
+looking at the inferential statistics, I brought different Bayesian multi level models
+- today only Model 2 and Model 5 are important
+  - Model 2 focuses on the different sources (scientific vs. anecdotal evidence)
+  - Model 5 focuses on the influence of Confirmation Bias
+- I do not want to explain the results in detail, but what we can see is that our descriptive impression is also supported inferentially. 
+- We have strong evidence for both results --> ÜBERPRÜFEN
+
+::: 
+
+# <font color="#8cd000">Discussion {{< fa comments >}}</font>{.cent1}
+
+::: notes
+
+- how can we explain and discuss the results?
+- now I would like to present a few suggestions 
+::: 
+
+## <font color="#8cd000">Discussion {{< fa comments >}}</font>
+<br>
+
+:::{style="font-size: 0.7em"}
+[{{< fa surprise >}}: In contrast to previous studies, teachers at hand showed greater trust in scientific evidence than in anecdotal evidence]{.imp2} <br>
+
+* Trust in specific statements vs. trust in sources without content statements
+* Influence of publication outlet (scientific journal vs. teacher blog) <br> &rarr; Information from social media is rated less trustworthy compared to scientific and anecdotal evidence (Braten & Ferguson, 2015)
+<br>
+
+
+[{{< fa check-double >}}: Consistent with previous studies, teachers at hand show strong confirmation bias]{.imp2} 
+<br> &rarr; Selective trust could lead to one-sided use of scientific evidence
+<br>
+<br>
+
+[{{< fa bolt >}}: In the present study trust, not engagement with or use of evidence, was measured]{.imp2}
+:::
+
+::: notes
+
+- first, take a closer look at the surprising result that teachers in our study showed greater trust in scientific than in anecdotal evidence
+- two possible explanations could be due to the operationalization of the independent variable (source)
+  - we have analyzed trust in specific statements to increase internal validity 
+  - previous studies have analyzed trust in sources without using a content statement, i.e. only asking how much they trust statements from, for example, scientists
+  - this may have led to a bias in that different sources may be associated with different topics/expertise. For example, teachers as teaching experts and scientists as experts in conducting scientific studies, i.e., practical vs. more abstract topics.
+  - publication outlet might have confounded the results as we described journal vs. teacher blog
+  - study by Braten & Ferguson showed that social media is rated less trustworthy. Hence, the publication outlet 'teacher blog' may have lead to lower trust ratings of anecdotal evidence 
+  - we have chosen a written format for both sources to keep them as parallal as possible 
+
+- consistent with previous research is our result on confirmation bias 
+- the results show that confirmation bias can also lead to selective trust
+
+- taking both results togehter, one could argue that it is not a general lack of trust in science that prevents teachers from considering scientific evidence in their school practice, rather a selective choice of evidence is problematic for an adequate realization of evidence-informed practice
+- In this regard, I finally want to highlight that we have only analyzed trust as a key predictor for the engagement with evidence
+  - we did not directly measure engagement with or use of evidence 
+  - important step for future studies
+:::
+
+## <font color="#8cd000">References {{< fa book-open >}} </font>{.scrollable}
+
+:::{style="font-size: 0.6em"}
+Andersen, I. G. (2020). What went wrong? Examining teachers’ data use and instructional decision making through a bottom-up data intervention in Denmark. *International Journal of Educational Research, 102*, 101585. https://doi.org/10.1016/j.ijer.2020.101585 <br>
+Blöbaum, B. (2016). Key factors in the process of trust. On the analysis of trust under digital conditions. In B. Blöbaum (Ed.), *In Trust and Communication in a Digitized World. Springer International Publishing* (pp. 3–25). https://doi.org/10.1007/978-3-319-28059-2_1 <br>
+Braten, I., & Ferguson, L. E. (2015). Beliefs about sources of knowledge predict motivation for learning in teacher education. *Teaching and Teacher Education, 50*, 13–23. https://doi.org/10.1016/j.tate.2015.04.003 <br> 
+Bromme, R., Kienhues, D., & Porsch, T. (2010). Who knows what and who can we believe? Epistemological beliefs are beliefs about knowledge (mostly) to be attained from others. In L. D. Bendixen & F. C. Feucht (Eds.), *Personal Epistemology in the Classroom*. Cambridge: Cambridge University Press (pp. 163–194). https://doi.org/10.1017/CBO9780511691904.006 <br>
+Bromme, R., Mede, N. G., Thomm, E., Kremer, B., & Ziegler, R. (2022). An anchor in troubled times: Trust in science before and within the COVID-19 pandemic. *PLOS ONE, 17*, e0262823. https://doi.org/10.1371/journal.pone.0262823 <br>
+Brown, C., Macgregor, S., Flood, J., & Malin, J. (2022). Facilitating Research-Informed Educational Practice for Inclusion. Survey Findings From 147 Teachers and School Leaders in England. *Frontiers in Education, 7*, 890832. https://doi.org/10.3389/feduc.2022.890832 <br>
+Brown, C., Schildkamp, K., & Hubers, M. D. (2017). Combining the best of two worlds: A conceptual proposal for evidence-informed school improvement. *Educational Research, 59*(2), 154–172. https://doi.org/10.1080/00131881.2017.1304327 <br>
+Buehl, M. M., & Fives, H. (2009). Exploring teachers’ beliefs about teaching knowledge: Where does it come from? Does it change? *Journal of Experimental Education, 77*, 367–407. https://doi.org/10.3200/JEXE.77.4.367-408 <br>
+Destatis (2019). Bildung, Forschung und Kultur. Genesis-Online <br>
+Dietz, G. & Den Hartog, D. N. (2006). Measuring trust inside organisations. *Personnel Review, 35*, 557–588. https://doi.org/10.1108/00483480610682299 <br>
+Hart, W., Albarracin, D., Eagly, A. H., Brechan, I., Lindberg, M. J., & Merrill, L. (2009). Feeling validated versus being correct: A meta-analysis of selective exposure to information. *Psychological Bulletin, 135*, 555–588. https://doi.org/10.1037/a0015701 <br>
+Hendriks, F., Kienhues, D., & Bromme, R. (2016). Trust in science and the science of trust. In B. Blöbaum (Ed.), *Trust and Communication in a Digitized World* (pp.143–159). Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-28059-2_8 <br>
+Hendriks, F., Seifried, E., & Menz, C. (2021). Unraveling the “smart but evil” stereotype: Pre-service teachers’ evaluations of educational psychology researchers versus teachers as sources of information. *Zeitschrift für Pädagogische Psychologie, 35*, 157–171. https://doi.org/10.1024/1010-0652/a000300 <br>
+Hinzke, J.-H., Gesang, J., & Besa, K.-S. (2020). Zur Erschließung der Nutzung von Forschungsergebnissen durch Lehrpersonen. Forschungsrelevanz zwischen Theorie und Praxis. *Zeitschrift für Erziehungswissenschaft, 23*, 1303–1323. https://doi.org/10.1007/s11618-020-00982-6 <br>
+Masnick, A. M., & Zimmerman, C. (2009). Evaluating scientific research in the context of prior belief: Hindsight bias or confirmation bias? *Journal of Psychology of Science and Technology, 2*, 29–36. https://doi.org/10.1891/1939-7054.2.1.29 <br>
+Merk, S. & Rosman, T. (2019). Smart but evil? Student-Teachers’ perception of educational researchers’ epistemic trustworthiness. *AERA Open, 5*, 233285841986815. https://doi.org/10.1177/2332858419868158 <br>
+Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology, 2*, 175–220. https://doi.org/10.1037/1089-2680.2.2.175 <br>
+Rosman, T., & Merk, S. (2021). Teacher’s reasons for trust and distrust in scientific evidence: Reflecting a “smart but evil” stereotype? *AERA Open, 7*, 23328584211028599. https://doi.org/10.1177/23328584211028599 <br>
+Schmidt, K., Rosman, T., Cramer, C., Besa, K.-S., & Merk, S. (2022). Teachers trust educational science—Especially if it confirms their beliefs. Frontiers in Education, 7. https://doi.org/10.3389/feduc.2022.976556 <br>
+Stroud, N. J. (2017). Understanding and overcoming selective exposure and judgment when communicating about science. In K. H. Jamieson, D. M. Kahan & D. A. Scheufele (Eds.) *The Oxford Handbook of the Science of Science Communication* (pp. 377–388). Oxford University Press. https://doi.org/10.1093/oxfordhb/9780190497620.013.41 <br>
+Vanlommel, K., Van Gasse, R., Vanhoof, J., and Van Petegem, P. (2017). Teachers’ decision-making: Data based or intuition driven? *International Journal of Educational Research, 83*, 75–83. https://doi.org/10.1016/j.ijer.2017.02.013 <br>
+Van Schaik, P., Volman, M., Admiraal, W., & Schenke, W. (2018) Barriers and conditions for teachers’ utilisation of academic knowledge. *International Journal of Educational Research, 90*, 50-63. https://doi.org/10.1016/j.ijer.2018.05.003.
+:::
+
+# <font color="#8cd000">Thank you for your attention!</font> {.cent1}
+`r fontawesome::fa_i(name = "address-card")`<br>
+Kirstin Schmidt <br>
+Karlsruhe University of Education <br>
+Bismarckstraße 10, <br>
+76133 Karlsruhe <br>
+kirstin.schmidt@ph-karlsruhe.de

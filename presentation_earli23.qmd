@@ -1,0 +1,54 @@
+---
+format: 
+  revealjs:
+    controls: true
+    slide-number: c
+    logo: images/PH_logo.svg
+    theme: [dark, css/custom.scss]
+    preview-links: auto
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 3
+      buttons: true
+      chalk-effect: 0
+    fullscreen: true
+    pdfexport: true
+    multiplex: true
+bibliography: references.bib
+csl: apa.csl
+editor_options: 
+  chunk_output_type: console
+---
+
+# Teachers trust scientific evidence - especially if it confirms their beliefs
+
+```{r hidden chunk which creates template stuff}
+#| echo: false
+
+########################
+library(fontawesome)
+library(tidyverse)
+library(readxl)
+library(ggalt)
+library(hrbrthemes)
+library(reactable)
+set.seed(848265)
+
+# Change css to lecker PH green
+#if(!dir.exists("img"))
+#dir.create("img")
+if(!dir.exists("css"))
+dir.create("css")
+fileConn<-file("css/custom.scss")
+fileStyle<-file("css/custom.scss")
+writeLines(c("/*-- scss:defaults --*/",
+             "$link-color: #8cd000 !default;",
+             ".imp {color: #8cd000;}",
+             ".imp2 {color: #50B32E;}",
+             ".cent2 h2 {text-align: center;}",
+             ".cent3 h3 {text-align: center;}",
+             ".cent1 h1 {text-align: center;}",
+             ".cent_text {text-align: center;}"), fileConn)
+close(fileConn)
+close(fileStyle)
+```
