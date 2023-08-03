@@ -193,7 +193,7 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 ::: notes
 
 - If we now specifically look at the abilities/competencies, teachers often struggle with interpreting and understanding scientific information as well as evaluating its veracity i.e., to evaluate the appropriateness of the study design, for example.  
-  - firsthand evaluation 
+  - first-hand evaluation 
 
 - another way is to evaluate whether the information appears trustworthy
 
@@ -210,7 +210,7 @@ I will elaborate on this in more detail
 ## <font color="#8cd000">Trust in scientific evidence {{< fa hands-helping >}}</font>
 
 :::{style="font-size: 0.8em"}
-* [Teachers often evaluate scientific evidence secondhand: instead of evaluating its veracity, they evaluate its credibility and trustworthiness]{.imp2} <br>
+* [Teachers often evaluate scientific evidence second-hand: instead of evaluating its veracity, they evaluate its credibility and trustworthiness]{.imp2} <br>
 (e.g., Merk & Rosman, 2019)
 <br> &rarr; Trust = key predictor/indicator to what extent scientific evidence is positively evaluated and considered (Bromme et al.,2022; Hendriks et al., 2016)
 <br>
@@ -221,10 +221,10 @@ I will elaborate on this in more detail
 
 ::: notes
 
-- if we evaluate the extent to which an information, e.g., scientific evidence, appears trustworthy, we conduct what is known as secondhand evaluation
-  - hence, teachers do not ask to what extent the statement is true - that would be firsthand evaluation - but to what extent they can trust the statement 
+- if we evaluate the extent to which an information, e.g., scientific evidence, appears trustworthy, we conduct what is known as second-hand evaluation
+  - hence, teachers do not ask to what extent the statement is true - that would be first-hand evaluation - but to what extent they can trust the statement 
 
-- since teachers often choose this secondhand evaluation, trust can be a central predictor/indicator for the extent to which teachers actually consider scientific evidence in their school practice
+- since teachers often choose this second-hand evaluation, trust can be a central predictor/indicator for the extent to which teachers actually consider scientific evidence in their school practice
 
 - furthermore, the evaluation of trust can be influenced by teachers' belief systems
 ::: 
@@ -233,7 +233,7 @@ I will elaborate on this in more detail
 ## <font color="#8cd000">Trust in scientific evidence {{< fa hands-helping >}}</font>
 
 :::{style="font-size: 0.8em"}
-* [Teachers often evaluate scientific evidence secondhand: instead of evaluating its veracity, they evaluate its credibility and trustworthiness]{.imp2} <br>
+* [Teachers often evaluate scientific evidence second-hand: instead of evaluating its veracity, they evaluate its credibility and trustworthiness]{.imp2} <br>
 (e.g., Merk & Rosman, 2019)
 <br> &rarr; Trust = key predictor/indicator to what extent scientific evidence is positively evaluated and considered (Bromme et al.,2022; Hendriks et al., 2016)
 <br>
@@ -329,8 +329,8 @@ I will elaborate on this in more detail
 - there are initial insights on the existence of confirmation bias in databased decision making based on qualitative analyses
 - but to the best of our knowledge only one quantitative study exists that focus on interpreting scientific evidence
 - the study shows that teachers rather show a confirmation bias than a hindsight bias when evaluating scientific studies 
-  - in this study confirmation bias is apparant in firsthand evaluation (e.g., evaluating the appropriateness of a study’s design)
-  - thus, we wanted to investigate whether confirmation bias is also apparant in secondhand evaluation
+  - in this study confirmation bias is apparant in first-hand evaluation (e.g., evaluating the appropriateness of a study’s design)
+  - thus, we wanted to investigate whether confirmation bias is also apparant in second-hand evaluation
 
 ::: 
 
@@ -520,6 +520,7 @@ further information:
 ::: notes 
 
 looking at the inferential statistics, I brought different Bayesian multi level models
+
 - today only Model 2 and Model 5 are important
   - Model 2 focuses on the different sources (scientific vs. anecdotal evidence)
   - Model 5 focuses on the influence of Confirmation Bias
@@ -592,7 +593,7 @@ further information:
 ::: notes
 
 - consistent with previous research is our result on confirmation bias 
-- the results show that confirmation bias is also apparent in secondhand evaluations
+- the results show that confirmation bias is also apparent in second-hand evaluations
 
 - Thus, taking both results together, one could argue that it is not a general lack of trust in science that prevents teachers from considering scientific evidence in their school practice, rather which filters come into play to evaluate the evidence. Confirmation bias might work as such a filter and thus can be problematic for an adequate realization of evidence-informed practice.
   - if teachers trust evidence that is consistent with their beliefs more and rather distrust evidence that is contradictory, they will continue to teach as before
