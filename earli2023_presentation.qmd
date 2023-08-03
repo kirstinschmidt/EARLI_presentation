@@ -434,7 +434,69 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
 
 ---
 
-![Schmidt et al. (2022; p. 8)](images/trust_by_belief-consistency_source_topic.jpg)
+```{r message=FALSE, results='hide'}
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(readr)
+library(mice)
+library(naniar)
+library(miceadds)
+library(brms)
+library(hrbrthemes)
+library(survey)
+library(patchwork)
+
+data_long <- 
+  read_csv("data/data_long.csv") %>% 
+  mutate(across(c(Topic, Source, Consistency, lfdn), as.factor)) %>% 
+  mutate(across(c(Trust, TrustInScience, TrustInEdScience), as.ordered))
+
+weighted_means_sd <- 
+  data_long %>% 
+  mutate(Trust = as.numeric(Trust),
+                  Source = recode_factor(Source,
+                                `Scientific Study` = 
+                                  "Scientific Evidence",
+                                `Episodic Evidence` = 
+                                  "Anecdotal Evidence"),
+                  Topic = recode_factor(Topic,
+                                        `Grades` =  
+                                         "Grades",
+                                        `Integration` =  
+                                         "Integration",                                                                             `Retention` =  
+                                         "Retention",
+                                        `Signalling` =  
+                                         "Signaling")
+         ) %>%  
+  group_by(Consistency, Source, Topic) %>% 
+  summarize(w_mean = weighted.mean(Trust, w = weight0, na.rm = T),
+            w_sd = sqrt(Hmisc::wtd.var(Trust, weights = weight0, na.rm = T)))
+
+
+MeansSD_weighted_plot <- 
+  ggplot(weighted_means_sd, aes(w_mean, Consistency)) +
+  geom_vline(xintercept = 3, color = "darkgrey", linetype = "dashed") +
+  facet_grid(Topic ~ Source) + 
+  geom_point(size = 3, shape = 18) + 
+  geom_linerange(aes(xmax = w_mean + w_sd, xmin = w_mean - w_sd),
+                 width = .1) +
+  theme_ipsum() + 
+  xlim(c(1,5)) +
+  ylab("") + 
+  xlab("Trust") + 
+  labs(title = "Trust", subtitle = "by Belief-Consistency, Source and Topic",
+       caption="H1: d = -0.81 (grades: d = -1.25; integration: d = -1.04; retention: d = -0.26; signaling: d = -0.86; 
+       H2: d = 0.40 (grades: d = 0.43; integration: d = 0.28; retention: d = 0.64; signaling: d = 0.25")  
+
+ggsave("trust_by_belief-consistency_source_topic.jpg", 
+       MeansSD_weighted_plot,
+       width = 6.1,
+       height = 6.6 )
+```
+
+
+![cf. Schmidt et al. (2022; p. 8)](./trust_by_belief-consistency_source_topic.jpg)
 
 
 ::: notes
@@ -444,7 +506,8 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
   - across all topics - which is quite surprising
 - we can also see that teachers trust claims more if they fit their beliefs, i.e., when they are consistent with their beliefs
 
-ADD EFFECT SIZES IN FIGURE
+
+further information:
 
 - descriptives based on weighted data
 
@@ -456,8 +519,6 @@ ADD EFFECT SIZES IN FIGURE
 
 ::: notes 
 
-UPDATE TABLE 
-
 looking at the inferential statistics, I brought different Bayesian multi level models
 - today only Model 2 and Model 5 are important
   - Model 2 focuses on the different sources (scientific vs. anecdotal evidence)
@@ -465,8 +526,10 @@ looking at the inferential statistics, I brought different Bayesian multi level 
 - I do not want to explain the results in detail, but what we can see is that our descriptive impression is also supported inferentially. 
 - We have strong evidence for both results --> ÜBERPRÜFEN
 
-highest density intervals 
-- HDIS included 0 and are rather small around zero -> evidence for null-hypothesis
+further information:
+
+- highest density intervals: HDIS included 0 and are rather small around zero -> evidence for null-hypothesis
+- Bayes factors based on bridge sampling
 
 ::: 
 
@@ -479,8 +542,6 @@ highest density intervals
 ::: 
 
 ## <font color="#8cd000">Discussion {{< fa comments >}}</font>
-<br>
-
 :::{style="font-size: 0.7em"}
 [{{< fa surprise >}}: In contrast to previous studies, teachers at hand showed greater trust in scientific evidence than in anecdotal evidence]{.imp2} <br>
 
@@ -511,8 +572,6 @@ highest density intervals
 :::
 
 ## <font color="#8cd000">Discussion {{< fa comments >}}</font>
-<br>
-
 :::{style="font-size: 0.7em"}
 [{{< fa surprise >}}: In contrast to previous studies, teachers at hand showed greater trust in scientific evidence than in anecdotal evidence]{.imp2} <br>
 
