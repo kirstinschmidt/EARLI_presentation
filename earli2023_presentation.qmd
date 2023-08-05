@@ -14,6 +14,7 @@ format:
     fullscreen: true
     pdfexport: true
     multiplex: true
+    auto-stretch: false
 bibliography: references.bib
 csl: apa.csl
 editor_options: 
@@ -73,7 +74,8 @@ font-size: .9em;}
 
 <br>
 
-::: {style="font-size: 0.8em"}
+::: {style="font-size: 0.6em"} 
+<!--Dann passt es auf eine Seite-->
 <center> Kirstin Schmidt</u><sup>1</sup>, Tom Rosman<sup>2</sup>, Colin Cramer<sup>3</sup>, <br> Kris-Stephen Besa<sup>4</sup> and Samuel Merk<sup>1</sup> </center>
 
 <br>
@@ -87,7 +89,7 @@ font-size: .9em;}
 
 presentation available at XXX <br>
 paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="true"} <br>
-[Paper presentation EARLI 2023| XX.08.2023]{.imp2}
+[Paper presentation EARLI 2023 | XX.08.2023]{.imp2}
 </center>
 
 :::
@@ -267,7 +269,8 @@ I will elaborate on this in more detail
 
 :::
 
-## <font color="#8cd000">Trust in different information sources {{< fa list >}}</font>
+## <font color="#8cd000">[Trust in different information sources]{style="font-size: 0.8em"} {{< fa list >}}</font>
+<!-- dann passt der Titel in eine Zeile--> 
 
 :::{style="font-size: 0.8em"}
 [(Future) teachers primarily consider anecdotal evidence in their practice (e.g., Buehl & Fives, 2009) and have more trust in other teachers than in scientists:]{.imp2}
@@ -277,8 +280,9 @@ I will elaborate on this in more detail
 * Lack of integrity and benevolence as reasons for distrust in educational scientists (Rosman & Merk, 2021)
 
 
-[{{< fa exclamation-triangle >}} __Anecdotal evidence that is not supported by science (e.g., the learning style theory) is consequently disseminated in everyday school life and leads to ineffective or dysfunctional practice__]{.imp}
+[{{< fa exclamation-triangle >}} __Anecdotal evidence that is not supported by science (e.g., the learning style theory) is highly prevalent in everyday school life and may lead to ineffective or dysfunctional practice__]{.imp}
 
+<!-- Hab hier ein bisschen abgeschwächt, denn es mag ja das eine oder andere Paradoxon geben --> 
 
 :::
 
@@ -389,19 +393,13 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
 
 ## <font color="#8cd000">Sample {{< fa users >}} </font>
 
-<center> [*N* = 414 teachers in Germany]{.imp} </center>
-
-
-* 73.1% female teachers
-<br>
-<br>
-* 80.8% of the teachers are between 30 and 59 years old
-<br>
-<br>
+* [*N* = 414 teachers in Germany]{.imp}
+    * 73.1% female teachers
+    * 80.8% of the teachers are between 30 and 59 years old
 * Teachers teach at different types of schools (z.B. 29.3% teach at a primary school; 25.8% teach at a upper secondary school)
 <br>
 <br>
-[&rarr; Representative sample]{.imp} <br>(cf. Destatis, 2019)
+[&rarr; »Representative« sample]{.imp} <br>(cf. Destatis, 2019)
 
 
 ::: notes
@@ -411,9 +409,14 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
 
 :::
 
----
+## 
 
-![(cf. Schmidt et al., 2022)](images/epitomes.png){width="250"}
+![`r shiny::HTML("<center>(cf. Schmidt et al., 2022)</center>")`](images/epitomes.png){fig-align="center" width=60%} 
+
+<!--Das ist ein arg hässlicher Hack mit `shiny::HTML()` - aber mir fällt gerade nicht besseres ein -->
+
+
+
 
 ::: notes
 
@@ -434,7 +437,10 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
 
 ---
 
-```{r message=FALSE, results='hide'}
+```{r }
+#| message: false
+#| results: hide
+#| cache: true
 library(dplyr)
 library(ggplot2)
 library(tidyr)
@@ -496,7 +502,7 @@ ggsave("trust_by_belief-consistency_source_topic.jpg",
 ```
 
 
-![cf. Schmidt et al. (2022; p. 8)](./trust_by_belief-consistency_source_topic.jpg)
+![`r shiny::HTML("<center>cf. Schmidt et al. (2022; p. 8)</center>")`](./trust_by_belief-consistency_source_topic.jpg){width=50%}
 
 
 ::: notes
@@ -513,9 +519,9 @@ further information:
 
 ::: 
 
----
+## {.center}
 
-![](images/table_results.png){width="250"}
+![](images/table_results.png){width=100%}
 
 ::: notes 
 
