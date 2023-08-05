@@ -75,7 +75,6 @@ font-size: .9em;}
 <br>
 
 ::: {style="font-size: 0.6em"} 
-<!--Dann passt es auf eine Seite-->
 <center> Kirstin Schmidt</u><sup>1</sup>, Tom Rosman<sup>2</sup>, Colin Cramer<sup>3</sup>, <br> Kris-Stephen Besa<sup>4</sup> and Samuel Merk<sup>1</sup> </center>
 
 <br>
@@ -101,7 +100,7 @@ paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="tru
 
 :::
 
-## <font color="#8cd000">Structure {{< fa list-ul >}}</font>
+## <font color="#8cd000">[Structure]{style="font-size: 0.8em"} {{< fa list-ul >}}</font>
 
 :::{style="font-size: 0.7em"}
 * Evidence-informed school practice {{< fa school >}}
@@ -135,7 +134,7 @@ paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="tru
 
 :::
 
-## <font color="#8cd000">Evidence-informed school practice {{< fa school >}}</font>
+## <font color="#8cd000">[Evidence-informed school practice]{style="font-size: 0.8em"} {{< fa school >}}</font>
 
 :::{style="font-size: 0.8em"}
 * Teachers can draw on different information sources when making professional decisions; information sources range from anecdotal evidence to scientific evidence (e.g., Buehl & Fives, 2009)
@@ -158,7 +157,7 @@ paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="tru
 :::
 
 
-## <font color="#8cd000">Evidence-informed school practice {{< fa school >}}</font>
+## <font color="#8cd000">[Evidence-informed school practice]{style="font-size: 0.8em"} {{< fa school >}}</font>
 
 :::{style="font-size: 0.8em"}
 Numerous barriers exist that make it difficult for teachers to act in an evidence-informed manner:
@@ -181,7 +180,7 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 :::
   
 
-## <font color="#8cd000">Evidence-informed school practice {{< fa school >}}</font>
+## <font color="#8cd000">[Evidence-informed school practice]{style="font-size: 0.8em"} {{< fa school >}}</font>
 
 :::{style="font-size: 0.8em"}
 Numerous barriers exist that make it difficult for teachers to act in an evidence-informed manner:
@@ -209,7 +208,7 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 I will elaborate on this in more detail
 :::
 
-## <font color="#8cd000">Trust in scientific evidence {{< fa hands-helping >}}</font>
+## <font color="#8cd000">[Trust in scientific evidence]{style="font-size: 0.8em"} {{< fa hands-helping >}}</font>
 
 :::{style="font-size: 0.8em"}
 * [Teachers often evaluate scientific evidence second-hand: instead of evaluating its veracity, they evaluate its credibility and trustworthiness]{.imp2} <br>
@@ -232,7 +231,7 @@ I will elaborate on this in more detail
 ::: 
 
 
-## <font color="#8cd000">Trust in scientific evidence {{< fa hands-helping >}}</font>
+## <font color="#8cd000">[Trust in scientific evidence]{style="font-size: 0.8em"} {{< fa hands-helping >}}</font>
 
 :::{style="font-size: 0.8em"}
 * [Teachers often evaluate scientific evidence second-hand: instead of evaluating its veracity, they evaluate its credibility and trustworthiness]{.imp2} <br>
@@ -250,7 +249,7 @@ I will elaborate on this in more detail
 
 :::
 
-## <font color="#8cd000">Trust in different information sources {{< fa list >}}</font>
+## <font color="#8cd000">[Trust in different information sources]{style="font-size: 0.8em"} {{< fa list >}}</font>
 
 :::{style="font-size: 0.8em"}
 [(Future) teachers primarily consider anecdotal evidence in their practice (e.g., Buehl & Fives, 2009) and have more trust in other teachers than in scientists:]{.imp2}
@@ -282,8 +281,6 @@ I will elaborate on this in more detail
 
 [{{< fa exclamation-triangle >}} __Anecdotal evidence that is not supported by science (e.g., the learning style theory) is highly prevalent in everyday school life and may lead to ineffective or dysfunctional practice__]{.imp}
 
-<!-- Hab hier ein bisschen abgeschwächt, denn es mag ja das eine oder andere Paradoxon geben --> 
-
 :::
 
 ::: notes
@@ -294,7 +291,7 @@ I will elaborate on this in more detail
 
 :::
 
-## <font color="#8cd000">Trust and confirmation bias {{< fa eye-slash >}}</font>
+## <font color="#8cd000">[Trust and confirmation bias]{style="font-size: 0.8em"} {{< fa eye-slash >}}</font>
 
 :::{style="font-size: 0.8em"}
 [Confirmation bias = own prior beliefs influence searching and interpreting information]{.imp2}
@@ -316,7 +313,7 @@ I will elaborate on this in more detail
   
 :::
 
-## <font color="#8cd000">Trust and confirmation bias {{< fa eye-slash >}}</font>
+## <font color="#8cd000">[Trust and confirmation bias]{style="font-size: 0.8em"} {{< fa eye-slash >}}</font>
 
 :::{style="font-size: 0.8em"}
 [In the educational context, confirmation bias is hardly systematically researched:]{.imp2}
@@ -338,7 +335,7 @@ I will elaborate on this in more detail
 
 ::: 
 
-## <font color="#8cd000">Trust and confirmation bias {{< fa eye-slash >}}</font>
+## <font color="#8cd000">[Trust and confirmation bias]{style="font-size: 0.8em"} {{< fa eye-slash >}}</font>
 
 :::{style="font-size: 0.8em"}
 [In the educational context, confirmation bias is hardly systematically researched:]{.imp2}
@@ -370,7 +367,7 @@ IF TIME IS ENOUGH ADD AN EXAMPLE
 
 :::
 
-## <font color="#8cd000">Hypotheses {{< fa exclamation >}} </font>
+## <font color="#8cd000">[Hypotheses]{style="font-size: 0.8em"} {{< fa exclamation >}} </font>
 
 <br>
 
@@ -391,7 +388,7 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
 - we also preregistered these hypotheses
 :::
 
-## <font color="#8cd000">Sample {{< fa users >}} </font>
+## <font color="#8cd000">[Sample]{style="font-size: 0.8em"} {{< fa users >}} </font>
 
 * [*N* = 414 teachers in Germany]{.imp}
     * 73.1% female teachers
@@ -521,7 +518,7 @@ further information:
 
 ## {.center}
 
-![](images/table_results.png){width=100%}
+![`r shiny::HTML("<center>cf. Schmidt et al. (2022; p. 9)</center>")`](images/table_results.png){width=100%}
 
 ::: notes 
 
@@ -540,7 +537,7 @@ further information:
 
 ::: 
 
-# <font color="#8cd000">Discussion {{< fa comments >}}</font>{.cent1}
+# <font color="#8cd000">[Discussion]{style="font-size: 0.8em"} {{< fa comments >}}</font>{.cent1}
 
 ::: notes
 
@@ -548,7 +545,7 @@ further information:
 - now I would like to present a few suggestions 
 ::: 
 
-## <font color="#8cd000">Discussion {{< fa comments >}}</font>
+## <font color="#8cd000">[Discussion]{style="font-size: 0.8em"} {{< fa comments >}}</font>
 :::{style="font-size: 0.7em"}
 [{{< fa surprise >}}: In contrast to previous studies, teachers at hand showed greater trust in scientific evidence than in anecdotal evidence]{.imp2} <br>
 
@@ -578,7 +575,7 @@ further information:
 
 :::
 
-## <font color="#8cd000">Discussion {{< fa comments >}}</font>
+## <font color="#8cd000">[Discussion]{style="font-size: 0.8em"} {{< fa comments >}}</font>
 :::{style="font-size: 0.7em"}
 [{{< fa surprise >}}: In contrast to previous studies, teachers at hand showed greater trust in scientific evidence than in anecdotal evidence]{.imp2} <br>
 
@@ -608,7 +605,7 @@ further information:
 
 :::
 
-## <font color="#8cd000">Discussion {{< fa comments >}}</font>
+## <font color="#8cd000">[Discussion]{style="font-size: 0.8em"} {{< fa comments >}}</font>
 :::{style="font-size: 0.7em"}
 [{{< fa surprise >}}: In contrast to previous studies, teachers at hand showed greater trust in scientific evidence than in anecdotal evidence]{.imp2} <br>
 
@@ -656,7 +653,7 @@ further information
   
 :::
 
-## <font color="#8cd000">References {{< fa book-open >}} </font>{.scrollable}
+## <font color="#8cd000">[References]{style="font-size: 0.8em"} {{< fa book-open >}} </font>{.scrollable}
 
 :::{style="font-size: 0.6em"}
 Andersen, I. G. (2020). What went wrong? Examining teachers’ data use and instructional decision making through a bottom-up data intervention in Denmark. *International Journal of Educational Research, 102*, 101585. https://doi.org/10.1016/j.ijer.2020.101585 <br>
