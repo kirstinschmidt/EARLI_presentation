@@ -86,7 +86,7 @@ font-size: .9em;}
 <br>
 <br>
 
-presentation available at XXX <br>
+presentation available at [https://kirstinschmidt.github.io/EARLI_presentation/]{preview-link="true"} <br>
 paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="true"} <br>
 [Paper presentation EARLI 2023 | 26.08.2023]{.imp2}
 </center>
