@@ -88,15 +88,14 @@ font-size: .9em;}
 
 presentation available at XXX <br>
 paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="true"} <br>
-[Paper presentation EARLI 2023 | XX.08.2023]{.imp2}
+[Paper presentation EARLI 2023 | 26.08.2023]{.imp2}
 </center>
 
 :::
 
 ::: notes
 
-- welcome
-- experimental study in which colleagues and I analyzed how teachers trust in scientific evidence
+- happy to present an experimental study in which my colleagues and I analyzed how teachers trust in scientific evidence
 
 :::
 
@@ -118,11 +117,9 @@ paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="tru
 
 ::: notes
 
-- quick overview of the structure to begin with
-- theoretical framework of the study
-  - I will shortly explain what is meant by evidence-informed school practice and why it is important to look at teachers' trust in scientific evidnece
-- afterwards: study design, results etc.
-- discussion
+- In classical manner, I will start with a quick introduction to the theoretical framework of the study 
+- afterwards present our study design and results
+- before discussing the results
 
 :::
 
@@ -150,10 +147,10 @@ paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="tru
 
 ::: notes
 
-- we all know, teachers can draw on different information sources e.g., anecdotal evidence such as advises of colleagues or scientific evidence
-- the latter is increasingly valued by policy makers and scientists and known as evidence-informed practice
-- the general idea is that teachers are encouraged to consider scientific findings in their professional actions to e.g., develop new practices or solve problems that have repeatedly emerge
-- despite this widespread demand, teachers often do not act in an evidence-informed manner
+- we all know that teachers can draw on different information sources e.g., anecdotal evidence such as advises from colleagues or scientific evidence when it comes to professional actions
+- Considering scientific evidence in school practice is increasingly valued by policy makers and scientists
+- Scientific evidence can help to e.g., develop new practices or solve problems that have repeatedly emerge -> known as evidence-informed practice
+- However, despite this widespread demand, teachers often do not act in an evidence-informed manner
 :::
 
 
@@ -172,11 +169,11 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 :::
 
 ::: notes
-- hence, question arises: what are the barriers that prevent teachers from doing so?
-- previous research has identified numerous barriers such as
-  - resources like limited time
-  - belief systems
-  - cognitive abilities/competencies
+- hence question arises what arriers prevent teachers from doing so
+- previous research has identified numerous barriers. I am just naming a few examples.
+  - limited resources 
+  - negative belief systems 
+  - lack of cognitive abilities/competencies 
 :::
   
 
@@ -193,8 +190,8 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 
 ::: notes
 
-- If we now specifically look at the abilities/competencies, teachers often struggle with interpreting and understanding scientific information as well as evaluating its veracity i.e., to evaluate the appropriateness of the study design, for example.  
-  - first-hand evaluation 
+- Sticking to the abilities/competencies in more detail
+- teachers often struggle with so called first-hand evaluations that is interpreting and understanding scientific information as well as evaluating its veracity 
 
 - another way is to evaluate whether the information appears trustworthy
 
@@ -227,7 +224,7 @@ I will elaborate on this in more detail
 
 - since teachers often choose this second-hand evaluation, trust can be a central predictor/indicator for the extent to which teachers actually consider scientific evidence in their school practice
 
-- furthermore, the evaluation of trust can be influenced by teachers' belief systems
+- however, the evaluation of trust can be influenced by teachers' belief systems
 ::: 
 
 
@@ -245,8 +242,7 @@ I will elaborate on this in more detail
 
 ::: notes
 
-- now I am going to present two of such possible influencing factors in more detail
-
+- now I am going to present beliefs that might influence second-hand evaluation in more detail
 :::
 
 ## <font color="#8cd000">[Trust in different information sources]{style="font-size: 0.8em"} {{< fa list >}}</font>
@@ -262,9 +258,9 @@ I will elaborate on this in more detail
 
 ::: notes
 
-- the first possible influencing factor refers to beliefs about the trustworthiness of different sources of evidence
-- findings from previous studies exist on how teachers trust different information sources
-- we know that teachers primarily consider anecdotal evidence - own teaching experience, advice from colleagues - in their practice and also trust information from teachers more than information from scientists. 
+- I will start with beliefs about the trustworthiness of different sources of evidence
+- findings from previous studies exist on how teachers use and trust different information sources
+- from these findings we know that teachers primarily consider anecdotal evidence - own teaching experience, advice from colleagues - in their practice and also trust information from teachers more than information from scientists especially when it comes to practical advices
 
 :::
 
@@ -285,9 +281,8 @@ I will elaborate on this in more detail
 
 ::: notes
 
-- Problematic in the sense that anecdotal evidence that is not supported by science - think, for example, of common misconceptions such as learning styles - is consequently disseminated in everyday school life
-- This (can) lead(s) to ineffective or dysfunctional practice
-- IF TIME IS ENOUGH ADD AN EXAMPLE
+- The basically higher trust in anecdotal evidence can be problematic if anecdotal evidence that is not supported by science is disseminated in everyday school life
+- This (can) lead(s) to ineffective or dysfunctional practice - think, for example, of common misconceptions such as learning styles
 
 :::
 
@@ -305,7 +300,7 @@ I will elaborate on this in more detail
 
 ::: notes
 
-- another influencing factor might refer to teachers prior beliefs about specific educational topics
+- Furthermore, teachers prior beliefs about specific educational topics might also influence teachers' second-hand evaluation
 - confirmation bias means that one's own prior beliefs influence the search for and interpretation of information
   - in the sense that 
     - information that is in line with one's own prior beliefs is preferred
@@ -327,11 +322,11 @@ I will elaborate on this in more detail
 ::: notes
 
 - confirmation bias is often discussed as a barrier of evidence-informed practice, but it has not yet been systematically analyzed
-- there are initial insights on the existence of confirmation bias in databased decision making based on qualitative analyses
-- but to the best of our knowledge only one quantitative study exists that focus on interpreting scientific evidence
+- there are initial insights on the existence of confirmation bias in data-based decision making based on qualitative analyses
+- but to the best of my knowledge only one quantitative study exists that focus on interpreting scientific evidence
 - the study shows that teachers rather show a confirmation bias than a hindsight bias when evaluating scientific studies 
-  - in this study confirmation bias is apparant in first-hand evaluation (e.g., evaluating the appropriateness of a study’s design)
-  - thus, we wanted to investigate whether confirmation bias is also apparant in second-hand evaluation
+  - in this study confirmation bias is apparent in first-hand evaluation (e.g., evaluating the appropriateness of a study’s design)
+  - thus, we wanted to investigate whether confirmation bias is also apparent in second-hand evaluation
 
 ::: 
 
@@ -352,9 +347,10 @@ I will elaborate on this in more detail
 ::: notes
 
 - if this is the case, this could be a further barrier for evidence-informed practice
+- in other words confirmation bias might be problematic because
 - if teachers demonstrate a selective trust in scientific evidence, then this can lead to a one-sided or lack of reference to evidence. This would make it difficult or even impossible to adequately realize evidence-informed practice
 
-IF TIME IS ENOUGH ADD AN EXAMPLE
+ ADD AN EXAMPLE
 
 ::: 
 
@@ -362,8 +358,7 @@ IF TIME IS ENOUGH ADD AN EXAMPLE
 
 ::: notes
 
-- in our experimental study we have focused on both explained aspects
-  - the source of evidence as well as teachers' prior beliefs about an educational topic
+- in our experimental study we have focused on both trust in specific sources and confirmation bias 
 
 :::
 
@@ -408,7 +403,9 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
 
 ## 
 
-![`r shiny::HTML("<center>(cf. Schmidt et al., 2022)</center>")`](images/epitomes.png){fig-align="center" width=60%} 
+
+![`r shiny::HTML("<center>(cf. Schmidt et al., 2022)</center>")`](images/epitomes.png){fig-align="center" width=60% .fragment} 
+
 
 <!--Das ist ein arg hässlicher Hack mit `shiny::HTML()` - aber mir fällt gerade nicht besseres ein -->
 
@@ -419,16 +416,16 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
 
 - to test our hypotheses we presented teachers with in total two out of four different claims from educational science
   - these two claims were chosen randomly
-  - the order whether the claim was made by a teacher or a scientist was randomized and 
+  - the order whether the claim was made by a teacher or a scientist was randomized, as well and 
   - whether the claim was consistent or inconsistent to participants prior topic-specific beliefs was also randomized
-- the procedure was always the same
+- for both claims the procedure was always the same (click)
   - first we presented the teachers with the topic, e.g., integration of text and picture
   - then we asked the participants for their opinion on this topic
   - afterwards we showed them the respective claim - in this box -
   - this claim was either consistent or inconsistent to the answer given before
   - finally, the participants were ask how much they trust the claim above 
   
-- let's have a look at the results
+- now I am coming to the results
 
 :::
 
@@ -507,7 +504,8 @@ ggsave("trust_by_belief-consistency_source_topic.jpg",
 - in this figure you can see the trust ratings differentiated per consistency on the left y-axis, per topic on the right y-axis and source of evidence: left column scientific evidence, right column anecdotal evidence
 - what is quite obvious when we look at both source columns is that the average trust ratings for scientific evidence are higher than for anecdotal evidence
   - across all topics - which is quite surprising
-- we can also see that teachers trust claims more if they fit their beliefs, i.e., when they are consistent with their beliefs
+- we can also see that teachers trust claims more if they fit their beliefs, i.e., when they are consistent with their beliefs 
+  - descriptive result is in line with our hypothesis
 
 
 further information:
@@ -522,13 +520,13 @@ further information:
 
 ::: notes 
 
-looking at the inferential statistics, I brought different Bayesian multi level models
+now we are looking at the inferential statistics 
+- for this purpose, we calculated different Bayesian multi level models
 
 - today only Model 2 and Model 5 are important
   - Model 2 focuses on the different sources (scientific vs. anecdotal evidence)
   - Model 5 focuses on the influence of Confirmation Bias
-- I do not want to explain the results in detail, but what we can see is that our descriptive impression is also supported inferentially. 
-- We have strong evidence for both results --> ÜBERPRÜFEN
+- I do not want to explain the results in detail, but what we can see is that our descriptive impression is also supported inferentially as R2 increases and HDI XXX
 
 further information:
 
@@ -541,8 +539,7 @@ further information:
 
 ::: notes
 
-- how can we explain and discuss the results?
-- now I would like to present a few suggestions 
+- how can we explain and discuss these results?
 ::: 
 
 ## <font color="#8cd000">[Discussion]{style="font-size: 0.8em"} {{< fa comments >}}</font>
@@ -560,7 +557,7 @@ further information:
 
 - first, take a closer look at the surprising result that teachers in our study showed greater trust in scientific than in anecdotal evidence
 - three possible explanations could be due to the operationalization of the dependent or independent variable (source)
-  - trust as a multidimensional construct: expertise, integrity and benevolence vs. overall assessment we have used in our study
+  - often trust is assessed as a multidimensional construct: expertise, integrity and benevolence vs. overall assessment we have used in our study
     - in studies with the multidimensional construct, lower trust in scientists, especially in terms of integretiy and benevolence, but globally still rather high
 
   - we have analyzed trust in specific statements to increase internal validity 
@@ -595,10 +592,10 @@ further information:
 
 ::: notes
 
-- consistent with previous research is our result on confirmation bias 
+- our result on confirmation bias is consistent with previous research on first-hand evaluation 
 - the results show that confirmation bias is also apparent in second-hand evaluations
 
-- Thus, taking both results together, one could argue that it is not a general lack of trust in science that prevents teachers from considering scientific evidence in their school practice, rather which filters come into play to evaluate the evidence. Confirmation bias might work as such a filter and thus can be problematic for an adequate realization of evidence-informed practice.
+- Taking both results together, one could argue that it is not a general lack of trust in science that prevents teachers from considering scientific evidence in their school practice, rather which filters come into play to evaluate the evidence. Confirmation bias might work as such a filter and thus can be problematic for an adequate realization of evidence-informed practice.
   - if teachers trust evidence that is consistent with their beliefs more and rather distrust evidence that is contradictory, they will continue to teach as before
     - unproblematic as long as the teachers’ practice is tried and tested.
     - but problematic when it either comes to concepts that are not supported by evidence but continue to persist in practice, or when one-sided evidence is used to develop new approaches or to overcome hitherto unsolved problems as this makes it difficult to stimulate new avenues.
@@ -636,20 +633,24 @@ further information:
   
 further information
 
-- familiarity of the source might be important aspect: trusted colleague more trustworthy than an anonymous blogposter; but in previous studys rather generic terms were used such as "experienced teacher" or "a teacher who has taught at a school for a number of years" 
-- context in which the evidence is intended to be used (e.g., teachers appeared more trustworthy when it came to pracitical recommendations, Hendriks et al., 2021)
+- familiarity of the source might be important aspect: trusted colleague more trustworthy than an anonymous blogposter; but in previous studies rather generic terms were used such as "experienced teacher" or "a teacher who has taught at a school for a number of years" 
+
+- context in which the evidence is intended to be used (e.g., teachers appeared more trustworthy when it came to practical recommendations, Hendriks et al., 2021)
+
 - name of the persons who provided the information (Quantz and Peters, 2014 vs. Mr. Mueller) or name of the publisher (Journal of Effective Teaching vs. Heartandsoulteacher.org)
+
 - challenge of designing internally valid study materials: 
   - more information, the less abstract the information appears and the more varying associations of the participants can be prevented 
   - cannot be ruled out that one of these pieces of contextual information confounds the variables that are actually relevant for the study and introduces bias on the outcomes 
-  - effects of heterogeneity:
-    - individual characteristics of teachers:
-      - trust of educational science in general
-      - degree of educational research literacy
-      - epistemic beliefs (multiplistic belief - scientific knowledge as subjective opinions = science less trustworthy)
-    - characteristics of scientific evidence:
-      - research paradigms (experimental vs. observatrional research)
-      - proximity of scientific evidence to teaching practice
+
+- effects of heterogeneity:
+  - individual characteristics of teachers:
+    - trust of educational science in general
+    - degree of educational research literacy
+    - epistemic beliefs (multiplistic belief - scientific knowledge as subjective opinions = science less trustworthy)
+  - characteristics of scientific evidence:
+    - research paradigms (experimental vs. observational research)
+    - proximity of scientific evidence to teaching practice
   
 :::
 
