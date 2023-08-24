@@ -94,8 +94,8 @@ paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="tru
 :::
 
 ::: notes
-
-- happy to present an experimental study in which my colleagues and I analyzed how teachers trust in scientific evidence
+- hear me in the back? 
+- happy to present an experimental study in which my colleagues and I have analyzed how teachers trust in scientific evidence
 
 :::
 
@@ -147,9 +147,9 @@ paper available at [https://doi.org/10.3389/feduc.2022.976556]{preview-link="tru
 
 ::: notes
 
-- we all know that teachers can draw on different information sources when it comes to professional actions e.g., anecdotal evidence such as advises from colleagues or scientific evidence - findings from a research study
-- Considering scientific evidence in school practice - so called evidence-informed practice, is increasingly valued by policy makers and scientists because scientific evidence is regarded as best available knowledge and a more objective information source
-- In school practice it can be used to e.g., develop new practices or solve problems that have repeatedly emerge (to increase school quality)
+- teachers can draw on different information sources when it comes to professional actions e.g., anecdotal evidence such as advises from colleagues or scientific evidence - findings from a research study
+- considering scientific evidence in school practice - so called evidence-informed practice - is increasingly valued by policy makers and scientists because scientific evidence is regarded as best available knowledge and a more objective information source
+- in school practice it can be used to e.g., develop new practices or solve problems that have repeatedly emerge (to increase school quality)
 - However, despite this widespread demand, teachers often do not act in an evidence-informed manner
 :::
 
@@ -169,8 +169,7 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 :::
 
 ::: notes
-- hence question arises what barriers prevent teachers from doing so
-- lots of research on this question. I am just naming a few of the identified barriers to get an impression
+- previous research shows that numerous barriers exist, I am just naming a few of the identified barriers to get an impression what hinders teachers from engaging in an evidence-informed manner
   - resources 
   - belief systems 
   - cognitive abilities/competencies 
@@ -242,7 +241,7 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 
 ::: notes
 
-- however, this evaluation of trustworthiness can be influenced by different subjective criteria - such as teachers' belief systems which might also act as barriers for evidence-informed practice
+- however, this evaluation of trustworthiness can be influenced by different subjective criteria - such as teachers' belief systems which might also act as barriers for evidence-informed practice / not free of distortions 
 
 :::
 
@@ -260,7 +259,7 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 ::: notes
 
 - beliefs about sources of evidence itself can influence trust ratings
-- findings from previous studies show that teachers primarily consider anecdotal evidence - own teaching experience, advice from colleagues - in their practice 
+- findings from previous studies show that teachers primarily consider anecdotal evidence  in their practice 
 - and also trust information from teachers more than information from scientists especially when it comes to practical advises
 
 :::
@@ -290,7 +289,7 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 ## <font color="#8cd000">[Trust and confirmation bias]{style="font-size: 0.8em"} {{< fa eye-slash >}}</font>
 
 :::{style="font-size: 0.8em"}
-[Confirmation bias = own prior beliefs influence searching and interpreting information]{.imp2}
+[Confirmation bias = own prior beliefs influence searching for and interpreting information]{.imp2}
 
 * Information that is consistent with prior beliefs is preferred or perceived as more confirmatory
 * Information that is inconsistent with prior beliefs is more quickly devalued and thus avoided or analyzed thoroughly to find errors in it <br> (e.g., Hart et al., 2009; Nickerson, 1998; Stroud, 2017)
@@ -301,8 +300,9 @@ Numerous barriers exist that make it difficult for teachers to act in an evidenc
 
 ::: notes
 
-- in addition to different sources, teachers prior beliefs about specific educational topics might also influence teachers' trust ratings
+- in addition to beliefs about the trustworthiness of different sources, teachers prior beliefs about specific educational topics might also influence teachers' trust ratings
 - one way of this influence can be: confirmation bias
+- key note
 - confirmation bias means that one's own prior beliefs influence the search for and interpretation of information
   - in the sense that 
     - information that is in line with one's own prior beliefs is preferred
@@ -382,7 +382,7 @@ H<sub>2</sub>: When teachers are confronted with evidence for specific knowledge
 
 - examined:
 
-1) whether teachers show more trust in certain claims from educational science when they come from a teacher (that is anecdotal evidence) than from a scientist/scientific study (that is scientific evidence)
+1) whether teachers show more trust in certain claims from educational science when they come from a teacher (that is anecdotal evidence) than from a scientist (that is scientific evidence)
 2) whether teachers trust certain claims from educational science more when they fit their prior beliefs - rather than refute them
 
 further information:
@@ -392,9 +392,10 @@ further information:
 
 ## <font color="#8cd000">[Sample]{style="font-size: 0.8em"} {{< fa users >}} </font>
 
-* [*N* = 414 teachers in Germany]{.imp}
-    * 73.1% female teachers
-    * 80.8% of the teachers are between 30 and 59 years old
+[*N* = 414 teachers in Germany]{.imp}
+
+* 73.1% female teachers
+* 80.8% of the teachers are between 30 and 59 years old
 * Teachers teach at different types of schools (z.B. 29.3% teach at a primary school; 25.8% teach at a upper secondary school)
 <br>
 <br>
@@ -426,9 +427,9 @@ further information:
   - the order whether the claim was made by a teacher or a scientist was randomized, as well and 
   - whether the claim was consistent or inconsistent to participants prior topic-specific beliefs was also randomized
 - for both claims the procedure was always the same (click)
-  - first we presented the teachers with the topic, e.g., integration of text and picture
+  - first we presented the teachers with the topic, e.g., integration of text and figure
   - then we asked the participants for their opinion on this topic
-  - afterwards we showed them the respective claim - in this box -
+  - afterwards we showed them the respective claim - in this box - 
   - this claim was either consistent or inconsistent to the answer given before and either from a teacher or a scientist
   - finally, the participants were ask how much they trust the claim above 
 - the second round was structured identically, but the source and consistency was the opposite to the first round
@@ -509,7 +510,7 @@ ggsave("trust_by_belief-consistency_source_topic.jpg",
 ::: notes
 
 - in this figure you can see the trust ratings differentiated per consistency on the left y-axis, per topic on the right y-axis and source of evidence: left column scientific evidence, right column anecdotal evidence
-- what is quite obvious when we look at both source columns is that the average trust ratings for scientific evidence are higher than for anecdotal evidence
+- what is quite obvious when we look at both source columns is that descriptively the average trust ratings for scientific evidence are higher than for anecdotal evidence
   - across all topics - which is quite surprising
 - we can also see that teachers trust claims more if they fit their beliefs, i.e., when they are consistent with their beliefs 
   - descriptive result is in line with our hypothesis
@@ -534,12 +535,13 @@ now we are looking at the inferential statistics
   - Model 2 focuses on the different sources (scientific vs. anecdotal evidence)
   - Model 5 focuses on the influence of Confirmation Bias (pinch to zoom)
   - Model 5a?
-- I do not want to explain the results in detail, but what we can see is that our descriptive impression is also supported inferentially which we can see by looking at R2 (square) and the highest density intervals; slopes!
+- I do not want to explain the results in detail, but what we can see is that our descriptive impression is also supported inferentially
 
 further information:
 
 - highest density intervals: HDIS included 0 and are rather small around zero -> evidence for null-hypothesis
 - Bayes factors based on bridge sampling
+- which we can see by looking at R2 (square) and the highest density intervals; slopes!
 
 ::: 
 
@@ -554,7 +556,6 @@ further information:
 :::{style="font-size: 0.7em"}
 [{{< fa surprise >}}: In contrast to previous studies, teachers at hand showed greater trust in scientific evidence than in anecdotal evidence]{.imp2} <br>
 
-* Trust as multidimensional construct vs. trust as an overall assessment
 * Trust in specific statements vs. trust in sources without content statements
 * Influence of publication body (scientific journal vs. teacher blog) <br> &rarr; Information from social media is rated less trustworthy compared to scientific and anecdotal evidence (Braten & Ferguson, 2015)
 <br>
@@ -565,19 +566,23 @@ further information:
 
 - first, take a closer look at the surprising result that teachers in our study showed greater trust in scientific than in anecdotal evidence
 - different possible explanations why our results and previous results differ. But I want to highlight two explanations that refer to the operationalization of the dependent or independent variable (source)
-(0) In the mentioned studies on teachers' trust in different sources, trust is often assessed as a multidimensional construct: expertise, integrity and benevolence. However, we have used the overall assessment of the German Science Barometer)
 
 1) we have analyzed trust in specific statements to increase internal validity, but previous studies have analyzed trust in sources without using a content statement, i.e. only asking how much they trust statements from, for example, scientists
     - this may have led to a bias in that different sources may be associated with different topics/expertise. For example, teachers as teaching experts and scientists as experts in conducting scientific studies, i.e., practical vs. more abstract topics.
     - maybe not the case that teachers doubt that scientists can deliver trustworthy knowledge, but maybe they do not want to use scientific knowledge because it is often associated with abstract and theoretical information
   
-  3) Our study vignettes included publication outlets - the outlet for anecdotal evidence was 'teacher blog' and for scientific evidence 'scientific journal'. Our chosen publication outlets might have confounded the results as a study by Braten & Ferguson showed that social media is rated less trustworthy. Hence, the publication outlet 'teacher blog' may have lead to lower trust ratings of anecdotal evidence 
-    - we have chosen a written format for both sources to keep them as parallel as possible, but also as realistic as possible e.g., teachers often do not meet scientists in person
+  3) study vignettes included publication outlets - the outlet for anecdotal evidence was 'teacher blog' and for scientific evidence 'scientific journal'
+  - chosen publication outlets might have confounded the results
+  - a study by Braten & Ferguson showed that social media is rated less trustworthy. Hence, the publication outlet 'teacher blog' may have lead to lower trust ratings of anecdotal evidence 
+  - we have chosen a written format for both sources to keep them as parallel as possible, but also as realistic as possible e.g., teachers often do not meet scientists in person
 
 
 further information: 
 
 But in studies with the multidimensional construct, lower trust in scientists, especially in terms of integrity and benevolence, but globally still rather high
+
+(0) In the mentioned studies on teachers' trust in different sources, trust is often assessed as a multidimensional construct: expertise, integrity and benevolence. However, we have used the overall assessment of the German Science Barometer)
+
 
 :::
 
@@ -585,7 +590,6 @@ But in studies with the multidimensional construct, lower trust in scientists, e
 :::{style="font-size: 0.7em"}
 [{{< fa surprise >}}: In contrast to previous studies, teachers at hand showed greater trust in scientific evidence than in anecdotal evidence]{.imp2} <br>
 
-* Trust as multidimensional construct vs. trust as an overall assessment
 * Trust in specific statements vs. trust in sources without content statements
 * Influence of publication body (scientific journal vs. teacher blog) <br> &rarr; Information from social media is rated less trustworthy compared to scientific and anecdotal evidence (Braten & Ferguson, 2015)
 <br>
@@ -601,13 +605,15 @@ But in studies with the multidimensional construct, lower trust in scientists, e
 
 ::: notes
 
-- our result on confirmation bias is consistent with previous research on first-hand evaluation 
+- our results on confirmation bias are consistent with previous research on first-hand evaluation 
 - the results show that confirmation bias is also apparent in second-hand evaluations
 
 - Taking both results together on source and confirmation bias, one could argue that it is not a general lack of trust in science that prevents teachers from considering scientific evidence in their school practice, rather which filters come into play to evaluate the evidence. Confirmation bias might work as such a filter
+  - symposium: epistemic perspectives another filter
   - if teachers trust evidence that is consistent with their beliefs and rather distrust evidence that is contradictory, they will continue to teach as before
     - unproblematic as long as the teachers’ practice is tried and tested
     - but problematic when it for example comes to concepts that are not supported by evidence but continue to persist in practice
+    - (or when one-sided evidence is used to develop new approaches or to overcome hitherto unsolved problems as this makes it difficult to stimulate new avenues)
     
 
 further information: 
@@ -620,7 +626,6 @@ or when one-sided evidence is used to develop new approaches or to overcome hith
 :::{style="font-size: 0.7em"}
 [{{< fa surprise >}}: In contrast to previous studies, teachers at hand showed greater trust in scientific evidence than in anecdotal evidence]{.imp2} <br>
 
-* Trust as multidimensional construct vs. trust as an overall assessment
 * Trust in specific statements vs. trust in sources without content statements
 * Influence of publication body (scientific journal vs. teacher blog) <br> &rarr; Information from social media is rated less trustworthy compared to scientific and anecdotal evidence (Braten & Ferguson, 2015)
 <br>
@@ -644,6 +649,7 @@ or when one-sided evidence is used to develop new approaches or to overcome hith
   - meaning trust does not automatically imply evidence-informed actions
 
 - that would be an important direction for future studies to look at
+- looking forward to question, comments, discussion 
   
   
 further information
